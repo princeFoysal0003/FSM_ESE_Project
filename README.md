@@ -1,13 +1,13 @@
 # ESP32-based Voltage Protector Device Simulation
 
-## How to run my simulation?
+## How to run the simulation?
 I have completed my project in wokwi.com. Following is the simulation link.
 Link: https://wokwi.com/projects/477390728075774977
 
 Clicking the green play button starts the simulation after a few seconds (usually around 10 s).
 
 ## How to check whether it works?
-There are two potentiometer in the circuit. One of them mimics the voltage input from PT, and another does the job of current from the CT. These two inputs are fed to the ESP32. Both voltage and current values can be seen in the LCD display.
+After starting the simulation, press the reset button once. If everything's okay, the LCD display will show Voltage and Current in real-time. There are two potentiometer in the circuit. One of them mimics the voltage input from PT, and another does the job of current from the CT. These two inputs are fed to the ESP32. Both voltage and current values can be seen in the LCD display.
 
 ### Overvoltage and Overcurrent Protection
 To change the voltage the dial of the **voltage potentiometer needs to be rotated**. Changed values can be seen in the LCD. If the voltage falls below the minimum threshold (207 V by default) or rises above the maximum threshold (253 V by default), the device detects fault and the relay operates and consequently the appliance gets disconnected from the supply. This feature protects the appliance from **overvoltage and overcurrent faults**.
