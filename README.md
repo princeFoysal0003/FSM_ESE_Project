@@ -1,4 +1,4 @@
-# ESP32-based Voltage Protector Device Simulation
+# ESP32-based Voltage Protector Device
 
 ## How to run the simulation?
 I have completed my project in wokwi.com. Following is the simulation link.
